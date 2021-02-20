@@ -132,3 +132,38 @@ nav {
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
+
+/* -----------------------Headings */
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 2.5rem;
+}
+
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+
+}
+/* -----------------------Home */
+#home {
+    background: url("/assets/images/heroimage.png") no-repeat center center fixed;
+    display: table;
+    height: 80%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.landing-text{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.landing-page h1 {
+    font-size: 5em;
+}
+
+.landing-page h2{
+    font-size: 3em;
+}
