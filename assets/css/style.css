@@ -372,3 +372,8 @@ footer{
 	font-weight: 300;
     cursor: pointer;
 }
+
+#map {
+  height: 600px;
+  width: 100%;
+}
