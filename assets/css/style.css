@@ -145,7 +145,7 @@ h2 {
     margin-bottom: 4rem;
 
 }
-/* -----------------------Home */
+/* -----------------------Home Landing */
 #home {
     background: url("/assets/images/heroimage.png") no-repeat center center fixed;
     display: table;
@@ -202,7 +202,7 @@ h2 {
     background: #000;
 }
 
-/* -----------------------About */
+/* -----------------------Home Content */
 .icon{
     padding-top: 1.5rem;
     padding-bottom: 0.5rem;
@@ -224,4 +224,27 @@ h2 {
     .lead{
         font-size: 2em;
     } 
+}
+
+.play-btn{
+    display: block;
+    width: 10rem;
+    font-size: 1.3rem;
+    padding: 1rem;
+    text-align: center;
+    border: 0.1rem solid #45A29E;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: rgb(28, 26, 26);;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #45A29E 0%, #45A29E 100%);
+}
+
+.play-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(134, 230, 225);
+    transition: transform 150ms;
+    transform: scale(1.03);
 }
