@@ -210,7 +210,14 @@ h2 {
     height: 112px;
 }
 
+#about {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
 #instructions {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
+
+
