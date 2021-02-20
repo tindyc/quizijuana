@@ -293,6 +293,7 @@ I used Lighthouse on Google Chrome DevTools to identify and fix common problems 
 
 #### Best Practices
 * There is a warning regarding font-end JavaScript libraries with known security vulnerabilities under Trust and Safety.  Due to time constraint, I have decided to work on this at a later stage. This could be solved by stop using each of the libraries that Lighthouse flags and replacing it with a different library or newer version.
+* During the last stage of development, whilst I was checking the codes, I reaslised the scripts for the Bootstrap buddle were out of date and I had upgraded it to the new Bootstrap5 bundle. This error has now been fixed and the score for best practices is now 100.
 
 #### SEO 
 * The SEO score for my site is 100.
