@@ -124,9 +124,15 @@
                     <h1>Send us a message</h1>
 
                     <form onsubmit="return sendMail(this)">
+
+                        <label for="name">Full Name</label>
                         <input type="text" name="name" placeholder="Full Name" class="contact-in-input" required />
+
+                        <label for="emailaddress">Emaill Address</label>
                         <input type="email" name="emailaddress" placeholder="Email" class="contact-in-input" required />
-                        <textarea name="message" placeholder="Message" class="contact-in-textarea" required></textarea>
+
+                        <label for="message">Message</label>
+                        <textarea name="message" placeholder="Type your message here" class="contact-in-textarea" required></textarea>
                         <input type="submit" value="SUBMIT" class="contact-in-btn">
                     </form>
                 </div>
