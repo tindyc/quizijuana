@@ -206,7 +206,7 @@ footer{
     padding-top: 3rem;
 }
 
-/* -----------------------Home Content */
+/* -----------------------About and Instructions */
 .icon{
     padding-top: 1.5rem;
     padding-bottom: 0.5rem;
@@ -251,4 +251,124 @@ footer{
     box-shadow: 0 0.4rem 1.4rem 0 rgb(134, 230, 225);
     transition: transform 150ms;
     transform: scale(1.03);
+}
+
+/* -----------------------Contact */
+#content{
+    color: #000;
+}
+#content h1{
+    color: #000;
+}
+.contact {
+    margin-top: 1rem;
+}
+.contact-in {
+    padding: 40px 30px;
+}
+
+.contact-in:nth-child(1) {
+	flex: 30%;
+    background: url('https://images.unsplash.com/photo-1470299568568-d4e15c4b6472?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1506&q=80');
+    background-size: cover;
+	color: #fff;
+}
+
+.contact-in h1 {
+	font-size: 3rem;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.contact-in h2 {
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+.contact-in h2 i {
+	font-size: 16px;
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	background: #fff;
+	color: #000;
+	border-radius: 50px;
+	line-height: 40px;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.contact-in h2 i:hover {
+    background: #45A29E;
+}
+
+.contact-in p {
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.contact-form h1 {
+    font-size: 3rem;
+    margin-top: 0.5em;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 20px;
+
+}
+.contact-in form {
+	width: 100%;
+	height: auto;
+}
+
+.contact-in-input {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+	border: 1px solid #fff;
+	outline: none;
+	padding-left: 5px;
+	background: transparent;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.contact-in-input::placeholder {
+	color: #fff;
+}
+
+.contact-in-textarea {
+	width: 100%;
+	height: 140px;
+	margin-bottom: 20px;
+	border: 1px solid #fff;
+	outline: none;
+	padding-top: 5px;
+	padding-left: 5px;
+	background: transparent;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.contact-in-textarea::placeholder {
+	color: #fff;
+}
+
+.contact-in-btn {
+	width: 100%;
+	height: 40px;
+	border: 1px solid #fff;
+	outline: none;
+	background: transparent;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+    cursor: pointer;
 }
