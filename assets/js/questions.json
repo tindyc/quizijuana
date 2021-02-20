@@ -1,0 +1,82 @@
+[
+    {
+        "question": "What cannabis cannabinoid is the most responsible for the stereotypical high?",
+        "choice1": "ABC",
+        "choice2": "THC (tetrahydrocannabinol)",
+        "choice3": "CBD",
+        "choice4": "THCA",
+        "answer": 2
+    },
+    {
+        "question": "How much of a marijuana plant is THC?",
+        "choice1": "The THC content in a cannabis plant is usually around 1% of the total plant materials.",
+        "choice2": "There is no THC present in the marijuana plant.",
+        "choice3": "It varies between different strains of marijuana plant. ",
+        "choice4": "None of the above",
+        "answer": 1
+    },
+    {
+        "question": "What region is the oldest evidence for the inhalation of cannabis from?",
+        "choice1": "Plantations were burnt down in N. America, and the smoke was accidentally inhaled causing an entire town to get high.",
+        "choice2": "Jamaica as evident in Bob Marley's music video.",
+        "choice3": "Romanians first consumed cannabis through smoking and vaporizing.",
+        "choice4": "The Maasai tribe in Africa were the first to inhale marijuana during their adamu ritual.",
+        "answer": 3
+    },
+    {
+        "question": "Medicinal use of cannabis is believed to have begun in what country?",
+        "choice1": "China",
+        "choice2": "Greece",
+        "choice3": "Mexico",
+        "choice4": "North Korea",
+        "answer": 1
+    },
+    {
+        "question": "How many cannabis cannabinoids are there?",
+        "choice1": "In recent years we have discovered over 480 different cannabinoids.",
+        "choice2": "At least 7.",
+        "choice3": "We've got a 2319",
+        "choice4": "42; Coincidentally this is also the meaning of life.",
+        "answer": 1
+    },
+    {
+        "question": "How are marijuana concentrates made?",
+        "choice1": "Almost all concentrates are made using a solvent to separate the cannabinoids, but some that utilize cold and heat instead.",
+        "choice2": "Mashing the buds in a giant bucket.",
+        "choice3": "You push the buds through a rice screen, and then stir into hot water. The water is then left out in the sun to dry. The remainder is scraped off.",
+        "choice4": " The chopped buds and sticks get whisked together and cooked on the stovetop for about 10 minutes. Then strain it and place it in the fridge to chill.",
+        "answer": 1
+    },
+    {
+        "question": "How many people are in U.S. prisons for non-violent marijuana-related offenses?",
+        "choice1": "1.4million",
+        "choice2": "140,000",
+        "choice3": "40,000",
+        "choice4": "240,000",
+        "answer": 3
+    },
+    {
+        "question": "What is the safest way to use marijuana?",
+        "choice1": "A bong with ice and cold water.",
+        "choice2": "Vaporizer",
+        "choice3": "Joint or blunt in natural wraps",
+        "choice4": "Direct consumption- eating marijuana products",
+        "answer": 4
+    },
+    {
+        "question": "Why does using marijuana cause an increased appetite?",
+        "choice1": "Dilates blood vessels leading to increased call for energy = hunger.",
+        "choice2": "Activates CB1 receptors & regulates insulin",
+        "choice3": "Stimulates subconscious memories of food and eating",
+        "choice4": "Marijuana use causes dehydration that is misinterpreted by the body as hunger",
+        "answer": 2
+    },
+    {
+        "question": "Is it possible to fatally overdose on marijuana?",
+        "choice1": "Yes",
+        "choice2": "Absolute not!",
+        "choice3": "Yes, but only when mixed with other substances.",
+        "choice4": "Yes,but only when you use it with a vaporizer.",
+        "answer": 3
+    }
+]
