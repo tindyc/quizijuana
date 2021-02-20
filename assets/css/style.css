@@ -215,13 +215,15 @@ footer{
 }
 
 #about {
-    padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
 
 #instructions {
-    padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+}
+
+#play {
+    padding-bottom: 3rem;
 }
 
 @media only screen and (min-width: 992px) {
