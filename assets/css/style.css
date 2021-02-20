@@ -173,6 +173,35 @@ h2 {
     font-size: 3em;
 }
 
+/* -----------------------Footer */
+.social-links li a i {
+     width: 32px;
+     height: 32px;
+     padding: 12px 0;
+     border-radius: 50%;
+     font-size: 20px;
+     line-height: 7px;
+     text-align: center;
+     color: #000;
+     background: #fff;
+     transition: all 0.35s ease-in-out;
+     -moz-transition: all 0.35s ease-in-out;
+     -webkit-transition: all 0.35s ease-in-out;
+     -o-transition: all 0.35s ease-in-out;
+}
+ .social-links li a i:hover {
+     background: #45A29E;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #fff;
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+    background: #000;
+}
+
 /* -----------------------About */
 .icon{
     padding-top: 1.5rem;
