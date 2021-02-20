@@ -38,7 +38,7 @@ getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('recentscore', score);
 
-        return window.location.assign('/');
+        return window.location.assign('/endquiz.html');
     }
 
     questionCounter++;
