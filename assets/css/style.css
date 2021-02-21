@@ -502,3 +502,16 @@ input::placeholder {
     font-size: 2rem;
     color: #000;
 }
+/* -----------------------Leaderboard */
+#highscoreslist {
+    list-style: none;
+    margin-bottom: 1.8rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#leaderboard {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
