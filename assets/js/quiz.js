@@ -11,7 +11,10 @@ let questionCounter = 0;
 let availableQuestions = [];
 
 let questions = [];
-
+/* Fetch questions and answers from questions.json.
+Covert body out of http response to json.
+Start game when the questions are loaded.
+Handle catch (error scenerio)*/
 fetch("/assets/js/questions.json")
     .then((res) => {
         return res.json();
@@ -26,14 +29,15 @@ fetch("/assets/js/questions.json")
 
 const SCORE_POINTS = 100;
 const MAX_QUESTIONS = 10;
-
+/* Start Quiz and set counter for questions and score to 0 */
 startQuiz = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
     getNewQuestion();
 };
-
+/* When the questions run out, save score and store in local brower storage. Redirect to endquiz.html.
+Shuffle questions and link questions to question and answers container in HTML. */
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('recentscore', score);
@@ -58,7 +62,7 @@ getNewQuestion = () => {
 
     acceptingAnswers = true;
 };
-
+/* Set up colour change responses to reflect user's action (apply CSS) - Correct answers turns green, incorrect answers turn red.*/
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if (!acceptingAnswers) return
@@ -82,8 +86,8 @@ choices.forEach(choice => {
         }, 1000);
     });
 });
-
-incrementScore = num => {
+/* Add score and print score in finalscore in HTML*/
+let incrementScore = num => {
     score += num;
     scoreText.innerText = score;
 };
