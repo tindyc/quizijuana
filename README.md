@@ -145,7 +145,7 @@ This project is neat and straight forward. It is logically designed whilst also 
 * The content of this page consists of a brief introduction to the quiz, instructions and a direct link to the quiz itself via the "Play" button or Navbar. Direct link to the Contact Page is also included on the Navbar.
 
 ### Contact Section
-*Simple contact form, with fields for Full Name, Email, Message and Submit button, implemented for users to fill should they wish to contact the site owner.
+* Simple contact form, with fields for Full Name, Email, Message and Submit button, implemented for users to fill should they wish to contact the site owner.
     - All the fields in the contact form are required and must be field correctly, otherwise the form will not be submitted. The users will be alerted of the errors. The email field requires to be filled correctly in the right format with "@" or "." included.
     - When the form is submitted successfully by filling out all the fields and then clicking the Submit button, an alert will pop up with a message to indicate the form has been sent. An email will be sent to the site owner with data from the contact form.
 * Interactive Google map with custom marker (cannabis icon to match the theme of the site) and info window will pop up when clicked to provide further information about the site.
@@ -269,7 +269,7 @@ The quiz game was manually tested to ensure all aspects are functional as I am a
 
 ### Contact Form
 * The contact form has been manually tested to ensure it functions properly.
-*This was done by submitting the form without filling in one of the three fields each time to ensure the `required` fields features works correctly. An alert displaying "Please fill out this field." will appear when there are missing fields in the form on submission.
+* This was done by submitting the form without filling in one of the three fields each time to ensure the `required` fields features works correctly. An alert displaying "Please fill out this field." will appear when there are missing fields in the form on submission.
 ![Image](assets/testing/missingfieldscontactform.png)
 * The Email input value was manually tested to see if it automatically validates the email to ensure email is property formatted. Missing values such as "@" or “.” and having them in the incorrect place will not pass the validation. This was done by inputting an invalid email to see if an alert will show. 
 ![Image](assets/testing/invalidemailcontactform.png)
