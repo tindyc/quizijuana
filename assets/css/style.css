@@ -147,7 +147,7 @@ h2 {
 }
 /* -----------------------Home Landing */
 #home {
-    background: url("assets/images/heroimage.png") no-repeat center center fixed;
+    background: url("../images/heroimage.png") no-repeat center center fixed;
     display: table;
     height: 80%;
     position: relative;
