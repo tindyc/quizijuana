@@ -33,6 +33,7 @@
       - [Best Practices](#best-practices)
       - [SEO](#seo)
     + [Device and Brower Responsiveness Testing](#device-and-brower-responsiveness-testing)
+    + [Other issues](#other-issues)
   * [**Deployment**](#--deployment--)
     + [Run locally](#run-locally)
   * [**Credits**](#--credits--)
@@ -290,7 +291,7 @@ This project is neat and straight forward. It is logically designed whilst also 
 * By clicking on the "Submit" button in the contact form, if all the fields are filled correctly and in the right format, an email will be sent to the site owner and an alert will pop up.
 
 ### Navigation Testing
-* Both navigation bar at the Home and Contact page have been manually tested by Google Chrome DevTools and testing physically on devices including iPhone XS Max, 12 and LG G8, to ensure the ease of navigation on both full and hamburger-style menus across devices. 
+* The navigation bar has been manually tested by Google Chrome DevTools and testing physically on devices including iPhone XS Max, 12 and LG G8, to ensure the ease of navigation on both full and hamburger-style menus across devices. 
 * During manually testing, I noticed the hero-image and google map overlaid on top of the Navbar on both full and hamburger-style menus in the home page. This was resolved by adding style property value `z-index:999` in CSS.
 ![Image](assets/testing/navbaroverlay.png)
 * The collapsed Navbar displays correctly on mobile and smaller devices and looks much cleaner than having a full Navbar that takes up the top of the page.
@@ -361,6 +362,14 @@ I used Lighthouse on Google Chrome DevTools to identify and fix common problems 
 * I also identified that the hover effect does not work properly on the answers in the quiz on mobile. The hover stays active on mobile devices.  This is because there is no persistent cursor on mobile browsers. Many devices use touch screen, which reacts only to touch; hence there is no hover.
 * Just to be extra sure, I further tested the responsiveness of the site through [Google's Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) and received a "page is mobile friendly" result.
 
+### Other issues
+* On deployment onto GitHub pages, all of the javascripts stopped working on the deployed site and the links on the Navbar could not direct to the expected page and showed a 404 error. This was caused by the buildup of GitHub pages. I resolved this by replacing all absolute links to relative links in the HTML. 
+* The hero-image also faced a file path issue. This was fixed by changing the path using `../` to come out of the CSS folder and then move into the images folder.
+![Image](assets/testing/loadresourceerror.png)
+
+* The above file path issues has inspired me to create a custom 404.html on GitHub page site so user can click on the "Go Home" button to be directed back to the home page when there is an error.
+![Image](assets/testing/404screenshot.png)
+
 ## **Deployment**
 ---
 This project is hosted using GitHub pages, deployed directly from the master branch.
@@ -398,6 +407,7 @@ To clone this project into Gitpod, follow these steps:
 * Code from Javascript Tutorial for building quiz app adapted from [James Q Quick](https://www.youtube.com/watch?v=u98ROZjBWy8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=1&ab_channel=JamesQQuick/).
 * [Google Javascript API](https://developers.google.com/maps/documentation/javascript/overview) for documentations to setting up custom map using Javascript API.
 * [Email JS](https://www.emailjs.com/) for documentations to linking contact form to email.
+* [GitHub Docs](https://docs.github.com/en/github/working-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site) for creating a custom 404 page on GitHub page site.
 
 ### Acknowledgements
 
