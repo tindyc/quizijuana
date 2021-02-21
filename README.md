@@ -282,6 +282,8 @@ The quiz game was manually tested to ensure all aspects are functional as I am a
 I used Lighthouse on Google Chrome DevTools to identify and fix common problems that affected my site's performance, accessibility, and user experience.
 ![Image](assets/testing/lighthousescores.png)
 
+* On the Google Chrome DevTools console, I got a "404 Favicon error". This was resolved by adding a transparent favicon.ico tothe head tag in the HTML.
+
 #### Accessibility
 * I manually checked and added `alt` attribute if there were any missing to improve accessibility.
 * I manually checked that all the social media icons at the footer contained a description for screen-reader users.
