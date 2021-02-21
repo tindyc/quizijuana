@@ -15,7 +15,7 @@ let questions = [];
 Covert body out of http response to json.
 Start game when the questions are loaded.
 Handle catch (error scenerio)*/
-fetch("/assets/js/questions.json")
+fetch("assets/js/questions.json")
     .then((res) => {
         return res.json();
     })
