@@ -54,7 +54,7 @@ I aim to build a fun and interactive quiz app related to Marijuana to allow user
 ## **Demo** 
 ---
 
-A live demo can be found [here]().
+A live demo can be found [here](https://tindyc.github.io/quizijuana/).
 
 ![Image](assets/testing/multidevicescreenshot.png)
 
