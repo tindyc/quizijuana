@@ -78,7 +78,7 @@ The planning and development of this project is divided into 5 planes:
 ---
 
 ### Creator Goals
-* to create an interactive web application that is fully responsive on desktop to mobile devices.
+* to create an interactive web application that is fully responsive on desktop to smaller devices such as mobile.
 
 * to create a website with interface design, presenting a logical structure allowing users to easily navigate.
 
@@ -124,18 +124,18 @@ The planning and development of this project is divided into 5 planes:
 1. Home
     * Navbar is always fixed on top of the page with "Quizijuana" logo on the left-hand side of the bar and a menu on the right with clear names of site pages for the ease of navigation. The colour will change to green (#45A29E) when the users hovers over them to reinforce the links are clickable. This Navbar will stay consistent throughout the entire website and will automatically minimised into a hamburger menu on smaller devices.
 
-    * The content of the home page contains a brief introduction to the purpose of this web application. Clear instructions of the quiz is also included for the users to follow and a button to be directed straight to the quiz game. 
+    * The content of the home page contains a brief introduction to the purpose of this web application. Clear instructions of the quiz are also included for the users to follow and a button to be directed straight to the quiz game. 
 
     * A footer with social media links is featured at the bottom to allow users to easily connect with site owner. The green colour (#45A29E) of the hover effect on the icons is consistent with the rest of the site.
 
 2. Quiz 
-    * The Start game page contains buttons to easily navigate to the Quiz, Highscores and back to Home page.
+    * The Start game page contains buttons to easily navigate to the “Quiz”, “Highscores” and back to “Home” page.
 
     * The Quiz game contains score, progress bar and number of questions to allow users to track their performance and see how many questions remaining.
 
     * Questions are shuffled and fetched from questions.json file with the help of JavaScript so that users will have a new experience each time they play the game.
 
-    * There are 4 multiple-choices answers for each questions for the user to select from.
+    * There are 4 multiple-choices answers for each question for the user to select from.
 
     * Correct answer will turn Green, whilst incorrect answer will turn Red.
 
@@ -185,7 +185,7 @@ This project is neat and straight forward. It is logically designed whilst also 
 
 ### Home page
 * Large quintessential Hero image, with heading text laid on top, is in the header of the home page to draw the attention of the users and to encourage users to play.  It is styled to be almost like a landing page with content if you scroll down.  
-* The content of this page consists of a brief introduction to the quiz, instructions and a direct link to the quiz itself via the "Play" button or Navbar. Direct link to the Contact Page is also included on the Navbar.
+* The content of this page consists of a brief introduction to the quiz, instructions and a direct link to the quiz itself via the "Play" button or Navbar. Direct link to the Contact Page is also included on the Navbar. The footer contains social links to allow users to connect with site owner.
 
 ### Contact Section
 * Simple contact form, with fields for Full Name, Email, Message and Submit button, implemented for users to fill should they wish to contact the site owner.
@@ -195,7 +195,9 @@ This project is neat and straight forward. It is logically designed whilst also 
 
 ### Quiz game
 * Score and Progress bar features included in the quiz so users can track their performance and see how many questions remaining.
+* Questions are shuffled when the game restarts to give users a new experience each time they play.
 * Chosen answers will respond with relevant colours changes to reflect the response. Font colour changes to yellow when hovered over the answer. When the answer is selected, correct answer will turn green and incorrect answer will turn red.
+* Users will be directed to the endgame page when no more questions remaining.
 * Highscore feature included to allow users to save their scores on the end page. Data including Name and Score will be saved in browser local storage, and the top 5 scores are displayed on the Leaderboard at the Highscore page.
 
 ### Features to be implemented in the future
@@ -213,7 +215,7 @@ This project is neat and straight forward. It is logically designed whilst also 
 
 * [CSS](https://www.w3schools.com/css/) - language used to style the HTML elements.
 
-* [Javascript](https://www.javascript.com/) - main language used to add interactive behavior to the site that engage users and for DOM manipulation.
+* [Javascript](https://www.javascript.com/) - main language used to add interactive behaviours to the site that engage users and for DOM manipulation.
 
 * [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - main framework used to make the website responsive and to structure content.
 
@@ -229,9 +231,9 @@ This project is neat and straight forward. It is logically designed whilst also 
 
 * [Gitpod](https://gitpod.io/) - workspace for development the project.
 
-* [GitHub](https://github.com/) - hosting site for storing code for the proejct with Github Pages used to deply the live site.
+* [GitHub](https://github.com/) - hosting site for storing code for the project with Github Pages used to deploy the live site.
 
-* Google Chrome DevTools - used for inspecting elements in finding issues and bugs and testing responsiveness of the project.
+* [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for inspecting elements in finding issues and bugs and testing responsiveness of the project.
 
 * [Am I Responsive](http://ami.responsivedesign.is/)- site used to create multi-device image to illustrate responsiveness
 
@@ -245,7 +247,7 @@ This project is neat and straight forward. It is logically designed whilst also 
 #### HTML
 * All HTML code was tested and validated with W3C Markup Checker.
 ![Image](assets/testing/html-validation.png)
-* Two warnings were shown suggesting that I should considering using ```h2-h6``` elements. However, I do not wish to add headings to those sections in the Home page. In order to by pass this warning, I changed `section` to `div`.
+* Two warnings were shown suggesting that I should considering using ```h2-h6``` elements. However, I do not wish to add headings to those sections in the Home page. To bypass this warning, I changed `section` to `div`.
 ![Image](assets/testing/html-validation-fixed.png)
 
 #### CSS
@@ -263,7 +265,7 @@ This project is neat and straight forward. It is logically designed whilst also 
     ![Image](assets/testing/landingpage.png)
 
 * As a first-time user, I would like to be able to navigate to desired sections on the site without having to search and scroll.
-    -Home page and Contact page have a responsive navigation bar to allow easy access across the site.
+    -Home page have a responsive navigation bar to allow easy access across the site. The Quiz game has buttons to be directed to various sections of the site.
     ![Image](assets/testing/navbar.png)
 
 * As a first-time user, I would like the quiz to be visually appealing with logical characteristics (Score, Progress Bar and Visual response for correct/incorrect answer).
@@ -288,23 +290,24 @@ This project is neat and straight forward. It is logically designed whilst also 
 ### Link Testing
 * All the external links in the page will open in a new tab implementing 'target="_blank"' and have been manually tested to confirm that they will direct to the correct destination. 
 * All the internal site links will navigate to the right path and have been manually tested to confirm they will direct user to expected page.
-* By clicking on the "Submit" button in the contact form, if all the fields are filled correctly and in the right format, an email will be sent to the site owner and an alert will pop up.
+* By clicking on the "Submit" button in the contact form, if all the fields are filled correctly and in the right format, an email will be sent to the site owner and an alert will pop up to indicate the form is sent.
 
 ### Navigation Testing
 * The navigation bar has been manually tested by Google Chrome DevTools and testing physically on devices including iPhone XS Max, 12 and LG G8, to ensure the ease of navigation on both full and hamburger-style menus across devices. 
-* During manually testing, I noticed the hero-image and google map overlaid on top of the Navbar on both full and hamburger-style menus in the home page. This was resolved by adding style property value `z-index:999` in CSS.
+* During manual testing, I noticed the hero-image and google map overlaid on top of the Navbar on both full and hamburger-style menus in the home page. This was resolved by adding style property value `z-index:999` in CSS.
 ![Image](assets/testing/navbaroverlay.png)
 * The collapsed Navbar displays correctly on mobile and smaller devices and looks much cleaner than having a full Navbar that takes up the top of the page.
 ![Image](assets/testing/collapsednavbar.png)
 
 ### Quiz Game
-The quiz game was manually tested to ensure all aspects are functional as I am a complete beginner to JavaScript and I am still learning. However, during the process of development, I used the `console.log()` method to test console outputs and checked for errors on Google Chrome DevTools console. Due to my lack of experience in JavaScript, there was a lot of trials and errors involved and this method was useful in checking the codes to ensure functionality during development. The use of online tutorials helped me further understand the logic of JavaScript and how to utilise various functions effectively in building my desired outcomes. As my programming knowledge deepens, I hope to start doing some unit testing in JavaScript.
+The quiz game was manually tested to ensure all aspects are functional as I am a complete beginner to JavaScript and I am still learning. However, during the process of development, I used the `console.log()` method to test console outputs and checked for errors on Google Chrome DevTools console. Due to my lack of experience in JavaScript, there was a lot of trials and errors involved and this method was useful in checking the codes to ensure functionality during development. The use of online tutorials helped me further understand the logic of JavaScript and how to utilise various functions effectively in building my desired app. As my programming knowledge deepens, I hope to start doing some unit testing in JavaScript.
 
 * The progress bar will update accordingly as the user go through each question.
 * The score will update accordingly as the user go through each question.
 * The font colour of the answers will turn yellow when hovered over.
 * The correct answer will turn red when selected.
 * The incorrect answer will turn green when selected.
+* When an answer is clicked, it automatically goes to the next question.
 * The "Play again" button functions properly, the page will reload and reset the quiz game.
 * The questions are shuffled each time the game restarts.
 * The quiz will end automatically when all 10 questions have been answered. Users will be directly to the end page automatically where they will have the option to save their scores.
@@ -325,7 +328,7 @@ The quiz game was manually tested to ensure all aspects are functional as I am a
 I used Lighthouse on Google Chrome DevTools to identify and fix common problems that affected my site's performance, accessibility, and user experience.
 ![Image](assets/testing/lighthousescores.png)
 
-* On the Google Chrome DevTools console, I got a "404 Favicon error". This was resolved by adding a transparent favicon.ico tothe head tag in the HTML.
+* On the Google Chrome DevTools console, I got a "404 Favicon error". This was resolved by adding a transparent favicon.ico to the head tag in the HTML.
 
 #### Accessibility
 * I manually checked and added `alt` attribute if there were any missing to improve accessibility.
@@ -333,12 +336,12 @@ I used Lighthouse on Google Chrome DevTools to identify and fix common problems 
 * There is an error for Heading elements not being in a sequentially-descending order for the `h5` elements in the footer. I have decided to ignore this as I intentionally wanted the font size at the footer to remain small.
 
 #### Performance 
-* There was an error for image elements not having explicit width and height. This was referring to the two icons used in the home page. I resolved this by changing the `height` property of the icons from `auto` to `112px` as this was the auto height specified on Google DevTools.
+* There was an error for the image elements not having explicit width and height. This was referring to the two icons used in the home page. I resolved this by changing the `height` property of the icons from `auto` to `112px` as this was the auto height specified on Google DevTools.
 * There were other opportunities suggested under performance by lighthouse. Due to time constraint and my lack of experience in programming now, I have decided to work on this at a later stage.
 
 #### Best Practices
 * There is a warning regarding font-end JavaScript libraries with known security vulnerabilities under Trust and Safety.  Due to time constraint, I have decided to work on this at a later stage. This could be solved by stop using each of the libraries that Lighthouse flags and replacing it with a different library or newer version.
-* During the last stage of development, whilst I was checking the codes, I reaslised the scripts for the Bootstrap buddle were out of date and I had upgraded it to the new Bootstrap5 bundle. This error has now been fixed and the score for best practices is now 100.
+* During the last stage of development, whilst I was checking the codes, I realised the scripts for the Bootstrap buddle were out of date and I had upgraded it to the new Bootstrap5 bundle. This error has now been fixed and the score for best practices is now 100.
 
 #### SEO 
 * The SEO score for my site is 100.
@@ -363,11 +366,11 @@ I used Lighthouse on Google Chrome DevTools to identify and fix common problems 
 * Just to be extra sure, I further tested the responsiveness of the site through [Google's Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) and received a "page is mobile friendly" result.
 
 ### Other issues
-* On deployment onto GitHub pages, all of the javascripts stopped working on the deployed site and the links on the Navbar could not direct to the expected page and showed a 404 error. This was caused by the buildup of GitHub pages. I resolved this by replacing all absolute links to relative links in the HTML. 
+* On deployment onto GitHub pages, all the JavaScript stopped working on the deployed site and the links on the Navbar could not direct to the expected page and showed a 404 error. This was caused by the build-up of GitHub pages. I resolved this by replacing all absolute links to relative links in the HTML. 
 * The hero-image also faced a file path issue. This was fixed by changing the path using `../` to come out of the CSS folder and then move into the images folder.
 ![Image](assets/testing/loadresourceerror.png)
 
-* The above file path issues has inspired me to create a custom 404.html on GitHub page site so user can click on the "Go Home" button to be directed back to the home page when there is an error.
+* The above file path issues have inspired me to create a custom 404.html on GitHub page site so user can click on the "Go Home" button to be directed back to the home page should they encounter errors.
 ![Image](assets/testing/404screenshot.png)
 
 ## **Deployment**
@@ -403,9 +406,9 @@ To clone this project into Gitpod, follow these steps:
 * Google Map: [Google Map JavaScript API](https://developers.google.com/maps/documentation/javascript/overview)
 
 ### Code
-* Code for responsive collapsed hamburger-menu navbar adapted from [kotchimel](https://www.codeply.com/p/hVa3gv9Umw).
-* Code from Javascript Tutorial for building quiz app adapted from [James Q Quick](https://www.youtube.com/watch?v=u98ROZjBWy8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=1&ab_channel=JamesQQuick/).
-* [Google Javascript API](https://developers.google.com/maps/documentation/javascript/overview) for documentations to setting up custom map using Javascript API.
+* Code for responsive collapsed hamburger-menu Navbar adapted from [kotchimel](https://www.codeply.com/p/hVa3gv9Umw).
+* Code from JavaScript Tutorial for building quiz app adapted from [James Q Quick](https://www.youtube.com/watch?v=u98ROZjBWy8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=1&ab_channel=JamesQQuick/).
+* [Google JavaScript API](https://developers.google.com/maps/documentation/javascript/overview) for documentations to setting up custom map using JavaScript API.
 * [Email JS](https://www.emailjs.com/) for documentations to linking contact form to email.
 * [GitHub Docs](https://docs.github.com/en/github/working-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site) for creating a custom 404 page on GitHub page site.
 
@@ -416,4 +419,5 @@ First of all, I would like to thank Guido Cecilio, my mentor from Code Institute
 Many thanks to the Slack community for offering solutions to the various bugs I encountered during the development of this site.
 
 Finally, a huge thank you to my friends and family who attempted the quiz on their own devices and offered not only user experience feedbacks but also love and emotional support.
+
 
