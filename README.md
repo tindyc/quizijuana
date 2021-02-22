@@ -401,8 +401,14 @@ To clone this project into Gitpod, follow these steps:
 ## **Credits**
 ---
 ### Media 
-* Hero-image: [Unsplash](https://unsplash.com/), a stock image library.
+* Images: [Unsplash] (https://unsplash.com/), a stock image library.
+    - [Hero-image](https://images.unsplash.com/photo-1470299568568-d4e15c4b6472?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1953&q=80)
+    - [Background image for Contact info section](https://images.unsplash.com/photo-1611084621059-a4c28ba05098?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80).
+
 * Cannabis icons: [Flaticon](https://www.flaticon.com/), a free vector icons database.
+    - [About icon](https://www.flaticon.com/free-icon/research_3520597?term=weed&page=2&position=48&page=2&position=48&related_id=3520597&origin=tag)
+    - [Brain icon](https://www.flaticon.com/svg/vstatic/svg/3997/3997018.svg?token=exp=1614023367~hmac=200be8b9e81b55e80871f53e0822379c)
+    
 * Google Map: [Google Map JavaScript API](https://developers.google.com/maps/documentation/javascript/overview)
 
 ### Code
