@@ -401,7 +401,7 @@ To clone this project into Gitpod, follow these steps:
 ## **Credits**
 ---
 ### Media 
-* Images: [Unsplash] (https://unsplash.com/), a stock image library.
+* Images: [Unsplash](https://unsplash.com/), a stock image library.
     - [Hero-image](https://images.unsplash.com/photo-1470299568568-d4e15c4b6472?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1953&q=80)
     - [Background image for Contact info section](https://images.unsplash.com/photo-1611084621059-a4c28ba05098?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80).
 
