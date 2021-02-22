@@ -265,7 +265,7 @@ This project is neat and straight forward. It is logically designed whilst also 
     ![Image](assets/testing/landingpage.png)
 
 * As a first-time user, I would like to be able to navigate to desired sections on the site without having to search and scroll.
-    -Home page have a responsive navigation bar to allow easy access across the site. The Quiz game has buttons to be directed to various sections of the site.
+    - Home page have a responsive navigation bar to allow easy access across the site. The Quiz game has buttons to be directed to various sections of the site.
     ![Image](assets/testing/navbar.png)
 
 * As a first-time user, I would like the quiz to be visually appealing with logical characteristics (Score, Progress Bar and Visual response for correct/incorrect answer).
