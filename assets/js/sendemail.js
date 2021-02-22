@@ -1,3 +1,4 @@
+/* Credits: Source Code for sendEmail.js API https://www.emailjs.com/docs/tutorial/creating-contact-form/*/
 function sendMail(contactForm) {
     emailjs.send("gmail", "quizijuanna", {
         "from_name": contactForm.name.value,

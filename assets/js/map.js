@@ -1,3 +1,4 @@
+/* Credits: Source Code for google map JavaScript API https://developers.google.com/maps/documentation/javascript/overview */
 function initMap() {
     // Map options
     var options = {

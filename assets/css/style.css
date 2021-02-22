@@ -12,7 +12,8 @@ body {
     font-family: 'Nova Square', sans-serif;
 }
 
-/* -----------------------Header */
+/* -----------------------Navbar */
+/* Credits: Code for collapsed navbar from https://www.codeply.com/p/hVa3gv9Umw and edited to fit project needs*/
 nav {
     position: fixed;
     top: 0;

@@ -1,3 +1,4 @@
+/* Credits: Code for collapsed navbar from https://www.codeply.com/p/hVa3gv9Umw */
 function navSlide() {
     const burger = document.querySelector(".burger");
     const nav = document.querySelector(".nav-links");
