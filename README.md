@@ -408,6 +408,7 @@ To clone this project into Gitpod, follow these steps:
 * Cannabis icons: [Flaticon](https://www.flaticon.com/), a free vector icons database.
     - [About icon](https://www.flaticon.com/free-icon/research_3520597?term=weed&page=2&position=48&page=2&position=48&related_id=3520597&origin=tag)
     - [Brain icon](https://www.flaticon.com/svg/vstatic/svg/3997/3997018.svg?token=exp=1614023367~hmac=200be8b9e81b55e80871f53e0822379c)
+    - [Cannabis logo](https://img.icons8.com/plasticine/50/000000/marijuana-leaf.png)
     
 * Google Map: [Google Map JavaScript API](https://developers.google.com/maps/documentation/javascript/overview)
 
