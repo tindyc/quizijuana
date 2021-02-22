@@ -185,7 +185,7 @@ This project is neat and straight forward. It is logically designed whilst also 
 
 ### Home page
 * Large quintessential Hero image, with heading text laid on top, is in the header of the home page to draw the attention of the users and to encourage users to play.  It is styled to be almost like a landing page with content if you scroll down.  
-* The content of this page consists of a brief introduction to the quiz, instructions and a direct link to the quiz itself via the "Play" button or Navbar. Direct link to the Contact Page is also included on the Navbar. The footer contains social links to allow users to connect with site owner.
+* The content of this page consists of a brief introduction to the quiz, instructions and a direct link to the quiz itself via the "Play" button or Navbar. The Narbar provides direct links to all section of the site. The footer contains social links to allow users to connect with site owner.
 
 ### Contact Section
 * Simple contact form, with fields for Full Name, Email, Message and Submit button, implemented for users to fill should they wish to contact the site owner.
